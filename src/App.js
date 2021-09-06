@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import jsx from "./image/imageReact.jpg"
+
+import  "./style.css"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <h1 className="titleRed">  React</h1><br/>
+     <img className="img1" src="/image/imageReact.jpg" alt=""/><br/>
+     <img className="img2" src ={jsx} alt ="jsxp"/><br/>
+     <video controls  src="C:\Users\lenovo\Downloads/SQUAD DOWN.mp4"/>
+
+
     </div>
   );
 }
